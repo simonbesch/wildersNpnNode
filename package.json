@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm install && node index.js" 
+    "start": "npm install && node index.js",
+    "postinstall": "echo INSTALLED && node index.js"
   },
   "type": "module",
   "author": "",
